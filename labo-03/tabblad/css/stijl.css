@@ -1,0 +1,36 @@
+/* stijl.css - labo 3, tabblad (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+ --achtergrond: #ff816f;
+ --tabblad: #ffd500;
+}
+
+/* === your rules === */
+body {
+    background-color: var(--achtergrond);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+
+h1 {
+    width: 10rem;
+    background-color: var(--tabblad);
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding: 1rem 1.7rem;
+    border: solid 0.25rem;
+    border-bottom: 0;
+    box-shadow: -0.25rem 0.5rem;
+}
+
+h2 {
+    width: 25rem;
+    background-color: white;
+    padding: 1.2rem 1.7rem;
+    font-size: 2rem;
+    border: solid 0.25rem;
+    box-shadow: -0.25rem 0.5rem, 0.25rem 0.5rem;
+
+}

@@ -1,0 +1,53 @@
+/* stijl.css - labo 3, kleuren (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+
+}
+
+/* === your rules === */
+body {
+    text-align: center;
+    color: white;
+    font-family: arial;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    height: 20vh;
+    padding-top: 7vh;
+}
+
+.tomato {
+    background-color: tomato;
+    
+}
+
+.orangered {
+    background-color: orangered;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.lightsalmon {
+    background-color: lightsalmon;
+}
+
+.darkorange {
+    background-color: darkorange;
+}
+
+.codes {
+    margin-top: 0.5rem;
+
+}
+
+span:nth-child(2){
+    margin: 1rem;
+}
